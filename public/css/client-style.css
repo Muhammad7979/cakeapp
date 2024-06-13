@@ -1,0 +1,58 @@
+.login_bg {
+	background-image:url(../assets/images/staticImage/fixed_background_third.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size:cover;
+}
+
+input:invalid, textarea:invalid { border-radius: 1px; -moz-box-shadow: 0px 0px 5px red; -webkit-box-shadow: 0px 0px 5px red; box-shadow: 0px 0px 5px red; }
+
+.no-boxshadow input:invalid, .no-boxshadow textarea:invalid { background-color: #f0dddd; }
+
+.login_form_container { width:458px; height:489px; margin:0 auto; background:url(../assets/images/staticImage/login_form_bg.png) no-repeat; margin-top:5%; padding:20px 30px; box-sizing:border-box; text-align:center; position:relative; }
+
+.login_form_container .login_screw_left { position:absolute; left:20px; top:22px; width:14px; height:14px; }
+
+.login_form_container .login_screw_right { position:absolute; right:20px; top:20px; width:14px; height:14px; }
+
+.login_form_container .login_screw_bottom_left { position:absolute; left:20px; bottom:22px; width:14px; height:14px; }
+
+.login_form_container .login_screw_bottom_right { position:absolute; right:20px; bottom:20px; width:14px; height:14px; }
+
+.login_form_container .logo { margin:15px 0 }
+
+.login_form_container .login_form { padding-top: 15px; }
+
+.login_form_container .login_form .username { width:100%; background:#fbf9f9; border:#dfdfdf 1px solid; padding:12px; box-sizing:border-box; margin-bottom:20px; font-family:'Open Sans', sans-serif; font-size:14px; font-weight:400; color:#2c3e50; background-image:url(../assets/images/staticImage/login_username_icon.png); background-repeat:no-repeat; background-position:97% 11px; }
+
+.login_form_container .login_form .password { width:100%; background:#fbf9f9; border:#dfdfdf 1px solid; padding:12px; box-sizing:border-box; margin-bottom:20px; font-family:'Open Sans', sans-serif; font-size:14px; font-weight:400; color:#2c3e50; background-image:url(../assets/images/staticImage/login_password_icon.png); background-repeat:no-repeat; background-position:97% 11px; }
+
+.login_form_container .login_form .btn { width:90%; background:#be1238; border:#ededed 1px solid; padding:12px 0; display:block; font-family:'Open Sans', sans-serif; font-size:15px; font-weight:600; color:#f1efea; text-transform:uppercase; margin:20px auto }
+
+.login_form_container .login_form a { font-family:'Open Sans', sans-serif; font-size:14px; font-weight:400; color:#be1238; }
+
+.login_form_container .login_form a:hover { font-family:'Open Sans', sans-serif; font-size:14px; font-weight:400; color:#be1238; text-decoration: none; }
+
+.login_form_container .login_form label { font-family:'Open Sans', sans-serif; font-size:13px; font-weight:400; color:#2c3e50; padding-right:8px; line-height:15px; }
+
+.form-control
+{
+    border-radius:0px;
+    box-shadow:none;
+}
+
+footer {
+	margin: 0px;
+	padding: 0px;
+	border: 0;
+	font-size: 100%;
+  font: inherit;
+  display: block;
+}
+
+footer.footer { width:100%; clear:both; background:#be1238; padding:30px 0; position:fixed; bottom:0px; left:0px; text-align:center; }
+
+footer.footer span { font-family:'Open Sans', sans-serif; font-size:13px; font-weight:400; color:#d2c3c6; }
+
+a { text-decoration: none;-webkit-transition: background-color 0.4s ease 0s, border 0s ease 0s, color 0.4s ease 0s, opacity 0.4s ease-in-out 0s; -moz-transition: background-color 0.4s ease 0s, border 0s ease 0s, color 0.4s ease 0s, opacity 0.4s ease-in-out 0s; -o-transition: background-color 0.4s ease 0s, border 0s ease 0s, color 0.4s ease 0s, opacity 0.4s ease-in-out 0s; transition: background-color 0.4s ease 0s, border 0s ease 0s, color 0.4s ease 0s, opacity 0.4s ease-in-out 0s;}
